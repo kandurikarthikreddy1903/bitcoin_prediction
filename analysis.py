@@ -6,3 +6,4 @@ from statsmodels.tsa.stattools import acf, pacf
 from statsmodels.graphics.tsaplots import plot_pacf,plot_acf
 
 btc_df = pd.read_csv('Gemini_BTCUSD_d.csv',skiprows=1)
+print(btc_df.head(1))
